@@ -1,0 +1,99 @@
+.login{
+    display: flex;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://www17.wellsfargomedia.com/assets/images/contextual/responsive/hpprimary/wfi_ph_b_mv_0723_3954_b_1700x700.jpg");
+    background-size: cover;
+    flex-direction: row;
+}
+.login-form{
+    left: 20;
+    top: 20;
+    box-shadow: 7px 5px 25px 0px gray;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+    margin-top: 140px;
+    background-color: white !important;
+}
+.login-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 140px;
+}
+.login-info >h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.login-info >h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+.login-info >button{
+    background-color: darkblue !important;
+    color: white !important;
+   width: 180px !important;
+   border-radius: 25px !important;
+}
+.login-info >button:hover{
+    background-color: lightblue !important;
+    color: darkblue !important;
+}
+.login-form > form{
+    display: flex;
+    
+    flex-direction: column !important;
+    justify-content: center;
+    background-image: none !important;
+}
+form > input {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 90%;
+}
+.login-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login-row > button {
+    background-color: darkblue !important;
+    color: white !important;
+    border-radius: 25px !important;
+    width: 180px !important;
+    margin-right: 20px !important; 
+}
+form > a {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.login-row > a {
+    font-size: 22px;
+    text-decoration: none;
+}
+form > a:hover , .login-row > a:hover {
+    text-decoration: underline;
+}
+.login-row > span{
+    font-size: 22px;
+}
+.login-form > h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.login-form > h4 {
+    font-weight: 350;
+    font-size: 24px;
+    margin-left: 10px;
+}

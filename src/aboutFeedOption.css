@@ -1,0 +1,23 @@
+.about-feed-option{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 7px 5px 25px 0px gray;
+    height: 100vh;
+    margin-bottom: 50px;
+    
+}
+.about-feed-option > img {
+    flex: 0.5;
+    width: 100%;
+    height: 300px;
+}
+.about-feed-option > h2{
+    flex: 0.1;
+}
+.about-feed-option > p{
+    flex: 0.4;
+    font-size: 24px;
+}

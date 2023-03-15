@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-introduction > p {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 24px;
+    color: gray;
+}
+.about-introduction > h2{
+    font-size: 50px;
+
+}
+.about-feed{
+    display: flex;
+    flex-direction: column;
+}
+.about-feed > h2 {
+    margin-left: 20px;
+}
+.about-feed-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-news-div{
+    display: flex;
+    flex-direction: column;
+}
+.about-news-row{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}

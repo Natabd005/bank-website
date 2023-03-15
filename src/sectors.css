@@ -1,0 +1,30 @@
+.sectors{
+    display: flex;
+    flex-direction: column;
+}
+.sectors-intro{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sectors-intro > h2{
+    font-size: 50px;
+
+}
+.sectors-intro > p {
+    font-size: 24px;
+    color: gray;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.sectors-options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 80px;
+   
+}
+.sectors-options-row{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+}

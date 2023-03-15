@@ -1,0 +1,39 @@
+.enroll{
+    height: 70vh;
+    box-shadow: 7px 5px 25px 0px gray;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.enroll-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.enroll-row > input{
+    margin-right: 20px;
+    margin-top: 25px;
+    font-size: 24px;
+    
+}
+.enroll-button {
+    background-color: darkblue !important;
+    color: white !important;
+    width: 250px !important;
+    margin-left: 200px !important;
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+}
+.enroll-row > span{
+    text-align: center;
+    align-self: center;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.enroll-row > a{
+    font-size: 21px !important;
+
+}

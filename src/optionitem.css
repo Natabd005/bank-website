@@ -1,0 +1,30 @@
+.optionitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    box-shadow: 7px 5px 25px 0px gray;
+    flex: 0.25;
+    margin-right: 10px;
+}
+.optionitem > img{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    flex: 0.2;
+}
+.optionitem > h3{
+    font-size: 24px;
+    font-weight: bold;
+    flex: 0.3;
+}
+.optionitem > a {
+    font-size: 25px;
+    margin-top: 10px;
+    color: black !important;
+    flex: 0.2;
+}
+.optionitem > P{
+    flex: 0.3;
+    font-size: 20px;
+}

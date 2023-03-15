@@ -1,0 +1,16 @@
+.feed-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 80vh;
+}
+    
+    
+.feed-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feed-header >h1 {
+    font-size: 50px;
+}

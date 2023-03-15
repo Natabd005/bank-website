@@ -1,0 +1,38 @@
+.about-news{
+    box-shadow: 7px 5px 25px 0px gray;
+    width: 50%;
+    height: 90vh;
+    margin-left: 40px; 
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.about-news > img {
+    
+    width: 100%;
+    height: 400px;
+    
+}
+.about-news > h2{
+  
+    margin-left: 20px;
+}
+.about-news > p{
+   
+    font-size: 24px;
+    margin-left: 20px;
+}
+.about-news > button {
+    
+    background-color: darkblue !important;
+    color: white !important;
+    width: 200px !important;
+    height: 40px !important;
+    border-radius: 25px !important;
+    margin-left: 280px !important;
+    margin-top: 20px !important;
+
+}
+.about-news > button:hover{
+    color: darkblue !important;
+    background-color: lightblue !important;
+}
